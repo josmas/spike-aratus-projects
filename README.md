@@ -1,6 +1,6 @@
 # aratus-projects
 
-FIXME
+A spike for a service that returns project definitions for a system that I still don't know very well what's going to do
 
 ## Prerequisites
 
@@ -14,6 +14,12 @@ To start a web server for the application, run:
 
     lein ring server
 
-## License
+You can also run the server with:
 
-Copyright © 2015 FIXME
+    lein run
+
+And the project is ready to be imported into OpenShift online with a Clojure cartridge.
+
+## License
+MIT
+
